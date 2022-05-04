@@ -1,0 +1,24 @@
+fetch는 자바스크립트에서 제공하는 거라 리액트에서도 쓸 수 있지만
+axios가 fetch보다 더 안정성이 높아서 이걸 더 많이 쓴다
+
+동기 : 순차적 진행
+비동기 : 비순차적 진행
+
+javascript setTimeOut, jquery의 ajax, node.js, axios도 비동기
+데이터 불러오는 건 사실 다 비동기라고 보면 됨 (그래야 로딩 기다리지 않고 여러 작업이 가능함)
+
+비동기를 동기, 순차적으로 만드는 방법
+1.콜백함수
+2.promise
+3.promise + fetch
+4.async await
+
+https://axios-http.com/kr/docs/intro
+
+styled-component는 sass처럼 중첩해서 css를 줄 수 있다!
+props를 수정할 수 있다는 장점이 최대 장점
+
+axios 쓸 때는 보통 useEffect 빈 배열을 써서 첫 렌더링될 때만 쭉 불러오게 시킨다
+
+https://react-query.tanstack.com/examples/simple
+↑ 로딩과 에러를 미리 만들어놨다든가, axios 여러 개 쓸 때 이름을 지정할 수 있어서 편리하게 사용할 수 있음
